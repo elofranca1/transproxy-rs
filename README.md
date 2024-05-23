@@ -6,7 +6,7 @@ This is a quick experiment with tokio to bring up a simple TCP proxy.
 
 Replace the enp0s3 and 192.168.2.192 with the values for your environment and 
 add rules for whatever destination ports you want to proxy
-
+d
 ```
 /sbin/iptables -t mangle -F
 
